@@ -19,3 +19,10 @@ automobile.
 A traffic sign board detection and recognition system is needed to accurately identifyand interpret traffic signs in real-time, in order to improve road safety and facilitate compliance with traffic regulations. By automatically detecting and interpreting trafficsigns, this system can help drivers to make informed decisions and reduce the likelihood of accidents or violations. Furthermore, a traffic sign detection and recognition system can also provide useful information to traffic management systems and assist with the efficient flow of traffic.
 
 There are several potential advantages to using autonomous cars over traditional cars. First, because they are able to drive themselves, autonomous cars can reduce the need for human drivers and make transportation more convenient and accessible. This is especially useful for people who are unable to drive due to disability or age, and it could also free up time for people to do other things while they are being transported. Second, autonomous cars are likely to be safer than traditional cars because they use advanced sensors and computer algorithms to detect and respond to their surroundings. This can help to prevent accidents and improve road safety, potentially saving lives.
+
+# Functional Block Diagram
+
+![Functional Block Diagram](https://user-images.githubusercontent.com/126253486/227922964-ae2d8913-d776-4cf9-a4f8-20ca6ff66e57.png)
+
+
+
