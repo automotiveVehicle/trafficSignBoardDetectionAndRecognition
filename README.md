@@ -23,5 +23,6 @@ There are several potential advantages to using autonomous cars over traditional
 
 ![Functional Block Diagram](https://user-images.githubusercontent.com/126253486/227922964-ae2d8913-d776-4cf9-a4f8-20ca6ff66e57.png)
 
+A custom data set of 4 classes is collected and annotated using Makesense.AI. SSD MobileNet model is trained using this data set. The trained model is dumped on Raspberry Pi for real time recognition, through live camera feed input is sent to Raspberry Pi. The annotated output is displayed on the screen.
 
 
