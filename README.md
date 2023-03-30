@@ -105,7 +105,10 @@ We have selected SSD MobileNet over Faster R-CNN and yolo as it has faster respo
 
  ### VGC16
 • VGG16 is used by SSD to extract feature maps. Then, an 8X8 spatial resolution object detection using the Conv4_3 layer is performed (it should be 38X38).
+
 • A bounding box and 21 scores for each class make up each prediction (one extra class for no object).
+
 • The highest score of the class for the bounded object. Totally 38 X 38 X 4 predictions are made by Conv4_3.
+
 • SSD reserves the class "0" to denote that it does not have any objects.
 
