@@ -21,7 +21,7 @@ There are several potential advantages to using autonomous cars over traditional
 
 # Functional Block Diagram
 
-![Functional Block Diagram](https://user-images.githubusercontent.com/126253486/227922964-ae2d8913-d776-4cf9-a4f8-20ca6ff66e57.png)
+<img  width="600" height="300" src="https://user-images.githubusercontent.com/79542776/228813917-a64986ec-1957-437d-a39c-4cb0fc159dd3.png">
 
 A custom data set of 4 classes is collected and annotated using Makesense.AI. SSD MobileNet model is trained using this data set. The trained model is dumped on Raspberry Pi for real time recognition, through live camera feed input is sent to Raspberry Pi. The annotated output is displayed on the screen.
 
@@ -48,9 +48,7 @@ A credit card-sized, open-source computer board called the Raspberry Pi runs on 
 
 ## Raspberry Pi 5MP Camera
 ### Specifications:-
-| <img  align="right" width="300" height="200" src="https://user-images.githubusercontent.com/79542776/228799483-5e93651a-08e5-44c4-a773-4b3ce368a276.png"> |
-|:---:|
-|Raspberry Pi Camera|
+<img  align="right" width="300" height="200" src="https://user-images.githubusercontent.com/79542776/228799483-5e93651a-08e5-44c4-a773-4b3ce368a276.png"> 
 
 • 5mp 
 
@@ -86,7 +84,7 @@ We have collected 256 images of each class total of 1025 images in which 820(80%
 
 # Model
 We have selected SSD MobileNet over Faster R-CNN and yolo as it has faster response time in raspberry pi , less usage of memory and as small objects can not be detected in yolo.
-  # SSD MobileNet
+## SSD MobileNet
 • In 2016, the Single Shot MultiBox Detector, a method for item detection in photos using a single deep neural network, was released.
    
 • Single shot object detection, or SSD, uses a single shot to find and identify several objects in a picture.
@@ -101,14 +99,11 @@ We have selected SSD MobileNet over Faster R-CNN and yolo as it has faster respo
    
 • Non-maximum suppression will match the predicted boxes to the input give ground truth boxes and remove all the duplicates and keep one box which has higher accuracy.
 
-## Specification Of Model
+### Specification Of Model
 
- ### VGC16
+ VGC16
 • VGG16 is used by SSD to extract feature maps. Then, an 8X8 spatial resolution object detection using the Conv4_3 layer is performed (it should be 38X38).
-
 • A bounding box and 21 scores for each class make up each prediction (one extra class for no object).
-
 • The highest score of the class for the bounded object. Totally 38 X 38 X 4 predictions are made by Conv4_3.
-
 • SSD reserves the class "0" to denote that it does not have any objects.
 
