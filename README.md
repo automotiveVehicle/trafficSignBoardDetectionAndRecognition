@@ -25,4 +25,27 @@ There are several potential advantages to using autonomous cars over traditional
 
 A custom data set of 4 classes is collected and annotated using Makesense.AI. SSD MobileNet model is trained using this data set. The trained model is dumped on Raspberry Pi for real time recognition, through live camera feed input is sent to Raspberry Pi. The annotated output is displayed on the screen.
 
+# Raspberry Pi 3 Model B+ and Raspberry Pi 5MP Camera
+
+## Raspberry Pi 3 Model B+
+A credit card-sized, open-source computer board called the Raspberry Pi runs on Linux and many other OS. The Pi is a fun and convenient way for people of all ages to develop their computer and programming skills. The Pi can perform many tasks that a desktop computer can, such browsing the internet and playing videos, by connecting it to a TV or monitor, a keyboard, and the appropriate programs. The Pi is also excellent for creative projects; newer models with more computing power are perfect for Internet of Things projects. Wireless LAN and Bluetooth Low Energy are also included with the Pi 3.
+
+### Specifications :-
+
+• Processor:-Chipset BCM2387 from Broadcom Bluetooth 4.1 and 802.11 b/g/n Wireless LAN on a 1.2GHz quad-core ARM Cortex-A53 processor (Bluetooth Classic and LE)
+
+• GPU :- Multimedia coprocessor with dual core and VideoCore IV. offers 1080p30H.264 high-profile decoding, hardware-accelerated OpenVG, and Open GL ES 2.0. capable of 24GFLOPs, 1GFLOPs, or 1.5Gtexels per second with DMA architecture and texture filtering.
+
+• Memory :- 1GB LPDDR2
+
+• Operating System :- Boots off a Micro SD card and launches a version of Linux or Windows 10 IoT.
+
+• Dimensions :- 85 X 56 X 17mm
+
+• Power :- Micro USB socket 5V1, 2.5A
+
+## Raspberry Pi 5MP Camera
+| ### Specifications:-| • 5mp | • 2592x1944 pixels | • 1080p 30fps,720p 60fps,640x480p 90fps |<img width="400" height="300" src="https://user-images.githubusercontent.com/79542776/228799483-5e93651a-08e5-44c4-a773-4b3ce368a276.png"> |
+
+
 
