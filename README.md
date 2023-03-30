@@ -84,5 +84,16 @@ We have collected 256 images of each class total of 1025 images in which 820(80%
 
 • Annotated images will be exported in xml format. xml file is converted into data file format called TFRecords which is used by TensorFlow for training .
 
+# Model
+We have selected SSD MobileNet over Faster R-CNN and yolo as it has faster response time in raspberry pi , less usage of memory and as small objects can not be detected in yolo.
+  # SSD MobileNet
+    • In 2016, the Single Shot MultiBox Detector, a method for item detection in photos using a single deep neural network, was released.
+    • Single shot object detection, or SSD, uses a single shot to find and identify several objects in a picture.
+    • The detection box is predicted using multi-reference techniques using a group of anchor boxes with various sizes and aspect ratios defined at various positions        in the image.
+    • Streamlined architecture that is simplified An effective approach for mobile and embedded vision applications is provided by Mobilenet, which builds         lightweight deep convolutional neural networks using depthwise separable convolutions.
+    • It will calculate a total of 3000 bounding boxes.
+    • Further filter out bounding boxes using non-maximum suppression
+    • Non-maximum suppression will match the predicted boxes to the input give ground truth boxes and remove all the duplicates and keep one box which has higher     accuracy.
+
 
 
