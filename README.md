@@ -150,3 +150,10 @@ variety of algorithms.
 • TensorFlow Lite models can run quickly and efficiently on mobile devices without sacrificing accuracy.
 
 • Tensorflow offers a variety of operations for machine learning applications across various sorts of datasets, including object detection, object segmentation, and even text spell checking and pattern recognition.
+
+# Final Results
+
+
+https://user-images.githubusercontent.com/79542776/228817447-0eb86192-c5c9-44d1-a434-555396d4c507.mp4
+
+
