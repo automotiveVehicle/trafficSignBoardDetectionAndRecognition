@@ -107,3 +107,12 @@ We have selected SSD MobileNet over Faster R-CNN and yolo as it has faster respo
 • The highest score of the class for the bounded object. Totally 38 X 38 X 4 predictions are made by Conv4_3.
 • SSD reserves the class "0" to denote that it does not have any objects.
 
+# TensorFlow Lite
+•Google created the open source machine learning framework called TensorFlow. It is commonly used for training and building ML and DL models. It uses
+variety of algorithms.
+
+• One key advantage of TensorFlow Lite architecture is its ability to run on wide range of platforms including CPUs, GPUs and TPUs.
+
+• TensorFlow Lite models can run quickly and efficiently on mobile devices without sacrificing accuracy.
+
+• Tensorflow offers a variety of operations for machine learning applications across various sorts of datasets, including object detection, object segmentation, and even text spell checking and pattern recognition.
