@@ -5,7 +5,8 @@
   Traffic sign board detection is a critical aspect of autonomous vehicle technology. It involves using computer vision and machine learning algorithms to identify and interpret traffic signs in real-time. This allows the vehicle to understand and respond to various road rules and conditions, ensuring safe and efficient navigation.
 
 | <img width="400" height="300" src="https://user-images.githubusercontent.com/79542776/227910492-d0be6e5a-11c6-47da-a858-4988d9d96ee2.png"> |<img width="400" height="300" src="https://user-images.githubusercontent.com/79542776/227911678-c3a93801-2683-42ca-bea9-b1f8446c314a.png"> |
-|:---:|:---:|
+|:---:|:---:|![Raspberry_Pi_4_Model_B_-_Side](https://user-images.githubusercontent.com/126253486/228803250-c0ccc045-98f8-48ee-aa05-3094b42d322f.jpg)
+
 |Left Prohibited Result|Right Prohibited Result|
 | <img width="400" height="300" src="https://user-images.githubusercontent.com/79542776/227910727-c5c1c25f-88e0-4b1d-a195-f2b22f9a3d57.png"> |<img width="400" height="300" src="https://user-images.githubusercontent.com/79542776/227910752-23874b06-5d2c-4869-8662-99ee20154d6c.png">|
 |UTurn Result|Three way junction Result|
@@ -29,6 +30,9 @@ A custom data set of 4 classes is collected and annotated using Makesense.AI. SS
 
 ## Raspberry Pi 3 Model B+
 A credit card-sized, open-source computer board called the Raspberry Pi runs on Linux and many other OS. The Pi is a fun and convenient way for people of all ages to develop their computer and programming skills. The Pi can perform many tasks that a desktop computer can, such browsing the internet and playing videos, by connecting it to a TV or monitor, a keyboard, and the appropriate programs. The Pi is also excellent for creative projects; newer models with more computing power are perfect for Internet of Things projects. Wireless LAN and Bluetooth Low Energy are also included with the Pi 3.
+
+<img width="400" height="300" src="https://user-images.githubusercontent.com/126253486/228803421-7e2ecb2f-e94f-4769-9159-80273d2e3b79.jpg"
+
 
 ### Specifications :-
 
