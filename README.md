@@ -20,7 +20,8 @@ A traffic sign board detection and recognition system is needed to accurately id
 There are several potential advantages to using autonomous cars over traditional cars. First, because they are able to drive themselves, autonomous cars can reduce the need for human drivers and make transportation more convenient and accessible. This is especially useful for people who are unable to drive due to disability or age, and it could also free up time for people to do other things while they are being transported. Second, autonomous cars are likely to be safer than traditional cars because they use advanced sensors and computer algorithms to detect and respond to their surroundings. This can help to prevent accidents and improve road safety, potentially saving lives.
 
 # Functional Block Diagram
-<img  width="600" height="400" src="https://user-images.githubusercontent.com/79542776/228810208-9a9e8c44-db23-4758-bf0f-3a1646ee4c90.png">
+
+![Functional Block Diagram](https://user-images.githubusercontent.com/126253486/227922964-ae2d8913-d776-4cf9-a4f8-20ca6ff66e57.png)
 
 A custom data set of 4 classes is collected and annotated using Makesense.AI. SSD MobileNet model is trained using this data set. The trained model is dumped on Raspberry Pi for real time recognition, through live camera feed input is sent to Raspberry Pi. The annotated output is displayed on the screen.
 
@@ -47,7 +48,10 @@ A credit card-sized, open-source computer board called the Raspberry Pi runs on 
 
 ## Raspberry Pi 5MP Camera
 ### Specifications:-
- <img  align="right" width="300" height="200" src="https://user-images.githubusercontent.com/79542776/228799483-5e93651a-08e5-44c4-a773-4b3ce368a276.png"> 
+| <img  align="right" width="300" height="200" src="https://user-images.githubusercontent.com/79542776/228799483-5e93651a-08e5-44c4-a773-4b3ce368a276.png"> |
+|:---:|
+|Raspberry Pi Camera|
+
 • 5mp 
 
 • 2592x1944 pixels 
@@ -79,6 +83,23 @@ We have collected 256 images of each class total of 1025 images in which 820(80%
 • In this project we are using MakeSense.AI. It is open source used for image annotation.
 
 • Annotated images will be exported in xml format. xml file is converted into data file format called TFRecords which is used by TensorFlow for training .
+
+# Model
+We have selected SSD MobileNet over Faster R-CNN and yolo as it has faster response time in raspberry pi , less usage of memory and as small objects can not be detected in yolo.
+  # SSD MobileNet
+• In 2016, the Single Shot MultiBox Detector, a method for item detection in photos using a single deep neural network, was released.
+   
+• Single shot object detection, or SSD, uses a single shot to find and identify several objects in a picture.
+   
+• The detection box is predicted using multi-reference techniques using a group of anchor boxes with various sizes and aspect ratios defined at various positions in the image.    
+   
+• Streamlined architecture that is simplified An effective approach for mobile and embedded vision applications is provided by Mobilenet, which builds lightweight    deep convolutional neural networks using depthwise separable convolutions.        
+   
+• It will calculate a total of 3000 bounding boxes.
+   
+• Further filter out bounding boxes using non-maximum suppression
+   
+• Non-maximum suppression will match the predicted boxes to the input give ground truth boxes and remove all the duplicates and keep one box which has higher accuracy.
 
 
 
