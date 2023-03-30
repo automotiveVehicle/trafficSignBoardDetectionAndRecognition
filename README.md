@@ -30,9 +30,6 @@ A custom data set of 4 classes is collected and annotated using Makesense.AI. SS
 ## Raspberry Pi 3 Model B+
 A credit card-sized, open-source computer board called the Raspberry Pi runs on Linux and many other OS. The Pi is a fun and convenient way for people of all ages to develop their computer and programming skills. The Pi can perform many tasks that a desktop computer can, such browsing the internet and playing videos, by connecting it to a TV or monitor, a keyboard, and the appropriate programs. The Pi is also excellent for creative projects; newer models with more computing power are perfect for Internet of Things projects. Wireless LAN and Bluetooth Low Energy are also included with the Pi 3.
 
-
-<img width="400" height="300" src = "https://user-images.githubusercontent.com/126253486/228800633-792f009b-a9fd-4642-a8f5-e372010f7879.jpg" >
-
 ### Specifications :-
 
 • Processor:-Chipset BCM2387 from Broadcom Bluetooth 4.1 and 802.11 b/g/n Wireless LAN on a 1.2GHz quad-core ARM Cortex-A53 processor (Bluetooth Classic and LE)
@@ -48,7 +45,19 @@ A credit card-sized, open-source computer board called the Raspberry Pi runs on 
 • Power :- Micro USB socket 5V1, 2.5A
 
 ## Raspberry Pi 5MP Camera
-| ### Specifications:-| • 5mp | • 2592x1944 pixels | • 1080p 30fps,720p 60fps,640x480p 90fps |<img width="400" height="300" src="https://user-images.githubusercontent.com/79542776/228799483-5e93651a-08e5-44c4-a773-4b3ce368a276.png"> |
+### Specifications:-
+<img  align="right" width="300" height="200" src="https://user-images.githubusercontent.com/79542776/228799483-5e93651a-08e5-44c4-a773-4b3ce368a276.png"> 
+
+• 5mp 
+
+• 2592x1944 pixels 
+
+• 1080p 30fps,720p 60fps,640x480p 90fps 
+
+# Data Set
+
+
+
 
 
 
