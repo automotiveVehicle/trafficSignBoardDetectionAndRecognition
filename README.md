@@ -101,11 +101,45 @@ We have selected SSD MobileNet over Faster R-CNN and yolo as it has faster respo
 
 ### Specification Of Model
 
- VGC16
+ #### VGC16:-
 • VGG16 is used by SSD to extract feature maps. Then, an 8X8 spatial resolution object detection using the Conv4_3 layer is performed (it should be 38X38).
+
 • A bounding box and 21 scores for each class make up each prediction (one extra class for no object).
+
 • The highest score of the class for the bounded object. Totally 38 X 38 X 4 predictions are made by Conv4_3.
+
 • SSD reserves the class "0" to denote that it does not have any objects.
+
+#### Extract Feature Layers:-
+1.Multi-scale feature maps for detection:- After the VGG16, SSD adds six more auxiliary convolution layers. For object detection, an additional five of them will be
+added. In three of those layers, we make six predictions as opposed to four. In total, SSD employs 6 layers and generates 8732 predictions.
+
+2.Default boundary box:- With just one prediction per default box, SSD restricts the number of default boxes to 4 or 6.
+
+3.Choosing default boundary boxes:- Each feature map layer in SSD has a scale value specified. Conv4 3 identifies things at the smallest size of 0.2 starting from
+the left.
+
+4.Matching strategy:- Positive matches and negative matches are two categories for SSD predictions. The localization cost for SSD is only calculated using positive
+matches.
+
+5.Hard negative mining:- Positive matches are far outnumbered by bad matches. A class imbalance results from this, which is bad for training.
+
+6.Data augmentation:- Enhancing data is crucial for increasing accuracy. Add flipping, cropping, and colour dithering to the data.
+
+#### Specifications:-
+• Weight=0.00004
+
+• Classification weight 1
+
+• Localization weight 1
+
+• IOU threshold 0.6
+
+• Number of steps 1000000
+
+• Batch size 16
+
+• Epochs 6250
 
 # TensorFlow Lite
 • Google created the open source machine learning framework called TensorFlow. It is commonly used for training and building ML and DL models. It uses
