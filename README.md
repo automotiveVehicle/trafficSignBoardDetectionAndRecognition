@@ -28,9 +28,9 @@ A custom data set of 4 classes is collected and annotated using Makesense.AI. SS
 # Raspberry Pi 3 Model B+ and Raspberry Pi 5MP Camera
 
 ## Raspberry Pi 3 Model B+
-A credit card-sized, open-source computer board called the Raspberry Pi runs on Linux and many other OS. The Pi is a fun and convenient way for people of all ages to develop their computer and programming skills. The Pi can perform many tasks that a desktop computer can, such browsing the internet and playing videos, by connecting it to a TV or monitor, a keyboard, and the appropriate programs. The Pi is also excellent for creative projects; newer models with more computing power are perfect for Internet of Things projects. Wireless LAN and Bluetooth Low Energy are also included with the Pi 3.
+<img  align = "right" width="400" height="300" src="https://user-images.githubusercontent.com/126253486/228803421-7e2ecb2f-e94f-4769-9159-80273d2e3b79.jpg">
 
-<img width="400" height="300" src="https://user-images.githubusercontent.com/126253486/228803421-7e2ecb2f-e94f-4769-9159-80273d2e3b79.jpg">
+A credit card-sized, open-source computer board called the Raspberry Pi runs on Linux and many other OS. The Pi is a fun and convenient way for people of all ages to develop their computer and programming skills. The Pi can perform many tasks that a desktop computer can, such browsing the internet and playing videos, by connecting it to a TV or monitor, a keyboard, and the appropriate programs. The Pi is also excellent for creative projects; newer models with more computing power are perfect for Internet of Things projects. Wireless LAN and Bluetooth Low Energy are also included with the Pi 3.
 
 ### Specifications :-
 
