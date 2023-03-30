@@ -48,7 +48,9 @@ A credit card-sized, open-source computer board called the Raspberry Pi runs on 
 
 ## Raspberry Pi 5MP Camera
 ### Specifications:-
-<img  align="right" width="300" height="200" src="https://user-images.githubusercontent.com/79542776/228799483-5e93651a-08e5-44c4-a773-4b3ce368a276.png"> 
+| <img  align="right" width="300" height="200" src="https://user-images.githubusercontent.com/79542776/228799483-5e93651a-08e5-44c4-a773-4b3ce368a276.png"> |
+|:---:|
+|Raspberry Pi Camera|
 
 • 5mp 
 
@@ -84,7 +86,7 @@ We have collected 256 images of each class total of 1025 images in which 820(80%
 
 # Model
 We have selected SSD MobileNet over Faster R-CNN and yolo as it has faster response time in raspberry pi , less usage of memory and as small objects can not be detected in yolo.
-## SSD MobileNet
+  # SSD MobileNet
 • In 2016, the Single Shot MultiBox Detector, a method for item detection in photos using a single deep neural network, was released.
    
 • Single shot object detection, or SSD, uses a single shot to find and identify several objects in a picture.
@@ -99,9 +101,9 @@ We have selected SSD MobileNet over Faster R-CNN and yolo as it has faster respo
    
 • Non-maximum suppression will match the predicted boxes to the input give ground truth boxes and remove all the duplicates and keep one box which has higher accuracy.
 
-### Specification Of Model
+## Specification Of Model
 
- VGC16
+ ### VGC16
 • VGG16 is used by SSD to extract feature maps. Then, an 8X8 spatial resolution object detection using the Conv4_3 layer is performed (it should be 38X38).
 • A bounding box and 21 scores for each class make up each prediction (one extra class for no object).
 • The highest score of the class for the bounded object. Totally 38 X 38 X 4 predictions are made by Conv4_3.
