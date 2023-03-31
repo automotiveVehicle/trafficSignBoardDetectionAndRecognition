@@ -178,3 +178,7 @@ https://user-images.githubusercontent.com/79542776/228817447-0eb86192-c5c9-44d1-
 
 • Further Raspberry Pi can be interfaced with motor drivers and actuators to alter the driver and control the car.
 
+
+# Training 
+
+To train your coustom TFlite model follow this code procedure CoustomTFlitemodel.ipynb
