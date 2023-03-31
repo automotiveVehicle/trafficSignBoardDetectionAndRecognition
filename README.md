@@ -168,4 +168,13 @@ https://user-images.githubusercontent.com/79542776/228817447-0eb86192-c5c9-44d1-
 
 • TFLite models are great for running on the Raspberry Pi , as they require less processing power.
 
+## Future Scope
+
+• To improvise this model we can increase the classes.
+
+• Google coral Edge TPU USB accelerator can be added to the Raspberry Pi and improve the performance, response time and FPS .
+
+• By upgrading from 5MP to 12MP Raspberry Pi camera we can detect traffic signs from far distance andwith higher clarity.
+
+• Further Raspberry Pi can be interfaced with motor drivers and actuators to alter the driver and controlthe car.
 
