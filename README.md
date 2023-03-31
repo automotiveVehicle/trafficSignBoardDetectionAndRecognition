@@ -156,4 +156,16 @@ variety of algorithms.
 
 https://user-images.githubusercontent.com/79542776/228817447-0eb86192-c5c9-44d1-a434-555396d4c507.mp4
 
+# Conclusion and Future Scope
+
+## Conclusion
+
+• The single shot detection(SSD) algorithm allows it to accurately identify objects in an image or a video.
+
+• The model is able to accurately identify different traffic signs through live video footage in various environment.
+
+• The TensorFlow Lite model can run on a wide variety of hardware , including PCs , embedded systems and phones .
+
+• TFLite models are great for running on the Raspberry Pi , as they require less processing power.
+
 
